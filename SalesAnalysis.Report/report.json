@@ -36,13 +36,22 @@
           "z": 1.00
         },
         {
-          "config": "{\"name\":\"675f68373e79b2b853ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":377.72495755517826,\"y\":272.597623089983,\"z\":0,\"width\":854.46519524618,\"height\":409.5076400679117,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.Category\"},{\"queryRef\":\"Sum(Data.Total_Price)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Category\"},\"Name\":\"Data.Category\",\"NativeReferenceName\":\"Category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total_Price\"}},\"Function\":0},\"Name\":\"Sum(Data.Total_Price)\",\"NativeReferenceName\":\"Sum of Total_Price\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"675f68373e79b2b853ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":754.2275042444822,\"y\":55.00848896434635,\"z\":0,\"width\":240.8149405772496,\"height\":125.90831918505943,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.Category\"},{\"queryRef\":\"Sum(Data.Total_Price)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Category\"},\"Name\":\"Data.Category\",\"NativeReferenceName\":\"Category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total_Price\"}},\"Function\":0},\"Name\":\"Sum(Data.Total_Price)\",\"NativeReferenceName\":\"Sum of Total_Price\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 409.51,
-          "width": 854.47,
-          "x": 377.72,
-          "y": 272.60,
+          "height": 125.91,
+          "width": 240.81,
+          "x": 754.23,
+          "y": 55.01,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"8582609aa9252696ba13\",\"layouts\":[{\"id\":0,\"position\":{\"x\":766.4516129032259,\"y\":211.47707979626486,\"z\":2,\"width\":211.47707979626486,\"height\":128.35314091680814,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.Country\"},{\"queryRef\":\"Sum(Data.Total_Price)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total_Price\"}},\"Function\":0},\"Name\":\"Sum(Data.Total_Price)\",\"NativeReferenceName\":\"Sum of Total_Price\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Country\"},\"Name\":\"Data.Country\",\"NativeReferenceName\":\"Country\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 128.35,
+          "width": 211.48,
+          "x": 766.45,
+          "y": 211.48,
+          "z": 2.00
         }
       ],
       "width": 1280.00
