@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.44\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU04\",\"version\":\"5.46\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU04",
+            "path": "BaseThemes/CY23SU04.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"675f68373e79b2b853ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":377.72495755517826,\"y\":272.597623089983,\"z\":0,\"width\":854.46519524618,\"height\":409.5076400679117,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Data.Category\"},{\"queryRef\":\"Sum(Data.Total_Price)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Category\"},\"Name\":\"Data.Category\",\"NativeReferenceName\":\"Category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total_Price\"}},\"Function\":0},\"Name\":\"Sum(Data.Total_Price)\",\"NativeReferenceName\":\"Sum of Total_Price\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 409.51,
+          "width": 854.47,
+          "x": 377.72,
+          "y": 272.60,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
